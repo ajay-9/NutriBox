@@ -1,0 +1,24 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="#000000">
+
+    <!-- Eye outer shape -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M12,4.5C7.25,4.5 3.27,7.61 1,12c2.27,4.39 6.25,7.5 11,7.5s8.73,-3.11 11,-7.5c-2.27,-4.39 -6.25,-7.5 -11,-7.5zM12,17.5c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5z" />
+
+    <!-- Pupil of the eye -->
+    <path
+        android:fillColor="@android:color/black"
+        android:pathData="M12,9.5c-1.38,0 -2.5,1.12 -2.5,2.5s1.12,2.5 2.5,2.5 2.5,-1.12 2.5,-2.5 -1.12,-2.5 -2.5,-2.5z" />
+
+    <!-- Slash through the eye -->
+    <path
+        android:fillColor="@android:color/white"
+        android:strokeColor="@android:color/black"
+        android:strokeWidth="2"
+        android:pathData="M3,3L21,21" />
+</vector>

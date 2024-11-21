@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "116325687524",
+    "project_id": "tiffincart-e111e",
+    "storage_bucket": "tiffincart-e111e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116325687524:android:b85408b4971df43d6a8cf1",
+        "android_client_info": {
+          "package_name": "com.example.tiffincart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjQIXvBx9sVWKZDAX2uP4dpiNZi7ZiL0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
