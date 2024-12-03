@@ -49,6 +49,10 @@ dependencies {
     implementation(libs.datastore.core.android)
     implementation(libs.support.annotations)
     implementation(libs.firebase.storage)
+
+    // Stripe Android SDK
+    implementation(libs.stripe.android)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
@@ -74,4 +78,9 @@ dependencies {
 
 
 
+}
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
 }

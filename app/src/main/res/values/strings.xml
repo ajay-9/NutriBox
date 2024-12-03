@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Tiffin Care</string>
+    <string name="app_name">NutriBox</string>
     <string name="hello_user">Hello, User</string>
     <string name="search_meals">Search meals</string>
     <string name="view_all">View All</string>
@@ -48,4 +48,18 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="enter_otp">Enter OTP</string>
     <string name="verify">Verify</string>
+    <string name="add_to_cart">Add</string>
+    <string name="price">$</string>
+    <string name="checkout">Checkout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tiffin_name">Tiffin Name</string>
+    <string name="plan">Plan</string>
+    <string name="_0_00">$0.00</string>
+    <string name="delete">Delete</string>
+    <string name="add_special_instructions_optional">Add special instructions (optional)</string>
+    <string name="add_cart">Add to Cart</string>
+    <string name="this_is_a_demo_transaction_no_real_money_will_be_charged">This is a demo transaction. No real money will be charged.</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="pay_now">Pay Now</string>
 </resources>
