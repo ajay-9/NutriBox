@@ -69,18 +69,3 @@ TiffinCart is an Android-based application designed to facilitate users in order
 7. Enjoy your tiffin meal!
 
 ---
-## **Folder Structure**
-src/
-├── main/
-│   ├── java/com/example/tiffincart/
-│   │   ├── Adapter/         # RecyclerView Adapters
-│   │   ├── Fragment/        # HomeFragment, CartFragment, etc.
-│   │   ├── Model/           # POJO Classes like TiffinItem
-│   │   ├── Screen/          # Activities like LoginActivity, CheckoutActivity
-│   │   └── Utils/           # Helper classes (e.g., SharedPreferences)
-│   └── res/
-│       ├── layout/          # XML layouts
-│       ├── values/          # Strings, Colors, Dimensions
-│       └── drawable/        # Images and icons
-
----
