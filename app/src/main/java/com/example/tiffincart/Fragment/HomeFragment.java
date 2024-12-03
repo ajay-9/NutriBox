@@ -158,6 +158,15 @@ public class HomeFragment extends Fragment {
             startActivity(intent);
         });
 
+        TextView viewAllText = view.findViewById(R.id.viewAllConsultants);
+        viewAllText.setOnClickListener(v -> {
+            // Replace with ViewAllFragment
+            requireActivity().getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragment_container, new AllConsultantFragment())
+                    .addToBackStack(null) // Add to back stack to enable back navigation
+                    .commit();
+        });
+
         return view;
     }
 }
