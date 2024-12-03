@@ -62,4 +62,14 @@
     <string name="this_is_a_demo_transaction_no_real_money_will_be_charged">This is a demo transaction. No real money will be charged.</string>
     <string name="total_amount">Total Amount</string>
     <string name="pay_now">Pay Now</string>
+    <string name="logout">Logout</string>
+    <string name="term_and_conditions">Terms and Conditions</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="my_orders">My orders</string>
+    <string name="meeting_with_consultant">Meeting with consultant</string>
+    <string name="personal_info">Personal Info</string>
+    <string name="expand">Expand</string>
+    <string name="example_fullname">Full Name: Ajay Dhillon</string>
+    <string name="example_username">Username: ajay_dhillon</string>
+    <string name="example_email">Email: ajay.sharma@example.com</string>
 </resources>

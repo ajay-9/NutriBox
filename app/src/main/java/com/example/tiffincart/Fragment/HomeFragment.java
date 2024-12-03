@@ -1,6 +1,8 @@
 package com.example.tiffincart.Fragment;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -19,6 +21,8 @@ import com.example.tiffincart.Model.ConsultantItem;
 import com.example.tiffincart.Model.TiffinItem;
 import com.example.tiffincart.R;
 import com.example.tiffincart.Screen.AllTiffinsActivity;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,6 +37,9 @@ public class HomeFragment extends Fragment {
     private RecyclerView trendingTiffinRecyclerView;
     private RecyclerView categoryRecyclerView;
     private RecyclerView consultantRecyclerView;
+    private TextView helloUserTextView;
+    private FirebaseAuth auth;
+    private DatabaseReference databaseReference;
 
 
     public HomeFragment() {
@@ -68,6 +75,15 @@ public class HomeFragment extends Fragment {
         trendingTiffinRecyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false));
         categoryRecyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false));
         consultantRecyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false));
+
+        TextView greetingTextView = view.findViewById(R.id.helloUserTextView);
+
+        // Retrieve the username from SharedPreferences
+        SharedPreferences sharedPreferences = requireActivity().getSharedPreferences("UserPrefs", Context.MODE_PRIVATE);
+        String username = sharedPreferences.getString("username", "User"); // Default is "User"
+
+        // Set greeting
+        greetingTextView.setText("Hello, " + username);
 
 
         // Example Data for Tiffin Meals, Categories, and Consultants
