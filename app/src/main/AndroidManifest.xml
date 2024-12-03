@@ -22,6 +22,21 @@
         android:theme="@style/Theme.TiffinCart"
         tools:targetApi="31">
         <activity
+            android:name=".Screen.CheckoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Screen.AllTiffinsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Model.CartItem"
+            android:exported="false" />
+        <activity
+            android:name=".Screen.CartViewModel"
+            android:exported="false" />
+        <activity
+            android:name=".Screen.TiffinDetailsActivity"
+            android:exported="false" />
+        <activity
             android:name=".Screen.CustomerProfile"
             android:exported="false" />
         <activity
