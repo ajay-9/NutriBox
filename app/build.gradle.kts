@@ -1,3 +1,4 @@
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.google.gms.google.services)
@@ -18,6 +19,7 @@ android {
     }
 
     buildTypes {
+       
         release {
             isMinifyEnabled = false
             proguardFiles(
@@ -34,6 +36,8 @@ android {
 
     buildFeatures.viewBinding = true
 }
+
+val roomVersion = "2.6.1"
 
 dependencies {
     implementation(libs.picasso)
@@ -76,7 +80,9 @@ dependencies {
     implementation(libs.glide)
     annotationProcessor(libs.glide.compiler)
 
-
+    // Room
+    implementation(libs.room.runtime)
+    annotationProcessor(libs.room.compiler)
 
 }
 java {
@@ -84,3 +90,5 @@ java {
         languageVersion = JavaLanguageVersion.of(17)
     }
 }
+
+

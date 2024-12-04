@@ -52,7 +52,7 @@
         android:id="@+id/bookButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Book"
+        android:text="See More"
         android:textColor="#FFFFFF"
         android:backgroundTint="#FF7043"
         android:layout_gravity="center" />
