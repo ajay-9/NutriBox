@@ -16,8 +16,8 @@ public interface ConsultantBookingDao {
     @Delete
     void delete(ConsultantBooking booking);
 
-    @Query("SELECT * FROM consultant_bookings WHERE email = :email")
-    List<ConsultantBooking> getBookingsByUser(String email);
+    @Query("SELECT * FROM consultant_bookings WHERE username = :username")
+    List<ConsultantBooking> getBookingsByUser(String username);
 
 }
 
