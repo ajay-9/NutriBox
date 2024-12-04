@@ -96,6 +96,24 @@ public class HomeFragment extends Fragment {
                 "Fit Bites Restaurant"
         ));
         tiffinItems.add(new TiffinItem(
+                "Energy Booster Meal",
+                R.drawable.energy_booster,
+                "Packed with proteins and nutrients to keep you energized all day.",
+                "40",
+                "450 kcal",
+                "Chicken, Sweet Potatoes, Spinach",
+                "Fit Bites Restaurant"
+        ));
+        tiffinItems.add(new TiffinItem(
+                "Vegan Feast",
+                R.drawable.vegan_feast,
+                "Plant-based tiffin packed with vibrant flavors.",
+                "30",
+                "300 kcal",
+                "Quinoa, Chickpeas, Kale",
+                "Plant Power Tiffin"
+        ));
+        tiffinItems.add(new TiffinItem(
                 "High Carbs",
                 R.drawable.carbs,
                 "Carb-loaded meal for energy boost.",
@@ -105,13 +123,13 @@ public class HomeFragment extends Fragment {
                 "Healthy Eats"
         ));
         tiffinItems.add(new TiffinItem(
-                "Weight Loss Meal",
+                "Weight Loss Bowl",
                 R.drawable.wt_loss,
-                "Low-calorie meal for weight management.",
-                "25",
-                "250 kcal",
-                "Grilled Fish, Salad, Avocado",
-                "Slimmer Meals"
+                "Balanced meal perfect for shedding some extra pounds.",
+                "35",
+                "350 kcal",
+                "Brown Rice, Grilled Fish, Vegetables",
+                "Healthy Eats"
         ));
         tiffinItems.add(new TiffinItem(
                 "Keto Meal",
@@ -122,14 +140,34 @@ public class HomeFragment extends Fragment {
                 "Bacon, Cheese, Eggs",
                 "Keto Haven"
         ));
+        tiffinItems.add(new TiffinItem(
+                "Exotic Asian Meal",
+                R.drawable.exotic_asian_meal,
+                "A blend of Asian flavors with noodles and stir-fried veggies.",
+                "45",
+                "420 kcal",
+                "Rice Noodles, Tofu, Stir-Fried Vegetables",
+                "Asian Spice"
+        ));
 
         List<CategoryItem> categoryItems = new ArrayList<>();
-        categoryItems.add(new CategoryItem("Breakfast", R.drawable.tiffin1));
-        categoryItems.add(new CategoryItem("Lunch", R.drawable.tiffin1));
-        categoryItems.add(new CategoryItem("Dinner", R.drawable.tiffin1));
-        categoryItems.add(new CategoryItem("Breakfast", R.drawable.tiffin1));
-        categoryItems.add(new CategoryItem("Lunch", R.drawable.tiffin1));
-        categoryItems.add(new CategoryItem("Dinner", R.drawable.tiffin1));
+        categoryItems.add(new CategoryItem(
+                "Healthy Picks",
+                R.drawable.healthy_picks // Replace with the correct image resource
+        ));
+        categoryItems.add(new CategoryItem(
+                "Fitness Fuel",
+                R.drawable.fitness_fuel // Replace with the correct image resource
+        ));
+        categoryItems.add(new CategoryItem(
+                "Weight Loss Plans",
+                R.drawable.weight_loss_plans // Replace with the correct image resource
+        ));
+        categoryItems.add(new CategoryItem(
+                "Traditional Favorites",
+                R.drawable.traditional_favorites // Replace with the correct image resource
+        ));
+
 
         List<ConsultantItem> consultantItems = new ArrayList<>();
         consultantItems.add(new ConsultantItem("Consultant 1", R.drawable.user1));

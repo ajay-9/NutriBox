@@ -20,6 +20,10 @@ TiffinCart is an Android-based application designed to facilitate users in order
 - Stripe API is integrated to handle payment.
 - Supports test mode for demo transactions.
 - Includes payment confirmation and error-handling mechanisms.
+- To make payments, users need to enter their card details.
+  - Card Number: 4242 4242 4242 4242
+  - Expiry Date: Any future date
+    - CVV: Any 3-digit number
 
 ### **User Profile**
 - Displays "Hello, Username" on the Home screen.

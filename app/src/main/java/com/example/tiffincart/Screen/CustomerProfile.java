@@ -22,6 +22,8 @@ public class CustomerProfile extends Fragment {
     private LinearLayout detailsLayout;
     private ImageView arrowIcon;
     private boolean isExpanded = false;
+    private TextView myBookingsOption;
+
 
     @Nullable
     @Override
@@ -35,10 +37,22 @@ public class CustomerProfile extends Fragment {
         detailsLayout = view.findViewById(R.id.details_layout);
         arrowIcon = view.findViewById(R.id.arrow_icon);
         logoutTextView = view.findViewById(R.id.logout_text);
+        myBookingsOption = view.findViewById(R.id.myBookingsOption);
 
         loadUserInfo();
 
         view.findViewById(R.id.personal_info_card).setOnClickListener(v -> toggleDetails());
+
+        TextView myOrdersButton = view.findViewById(R.id.myOrdersButton);
+        myOrdersButton.setOnClickListener(v -> {
+            Intent intent = new Intent(getActivity(), MyOrdersActivity.class);
+            startActivity(intent);
+        });
+        // Set click listener
+        myBookingsOption.setOnClickListener(v -> {
+            Intent intent = new Intent(getActivity(), MyConsultantBookingsActivity.class);
+            startActivity(intent);
+        });
 
         logoutTextView.setOnClickListener(v -> {
             clearUserPreferences();
