@@ -1,7 +1,7 @@
-# **TiffinCart Application**
+# **NutriBox Application**
 
 ## **Overview**
-TiffinCart is an Android-based application designed to facilitate users in ordering tiffin meals conveniently. The app integrates key functionalities like Firebase authentication and real-time database for user management, a shared preferences-based cart, and Stripe integration for seamless payment processing.
+NutriBox is an Android-based application designed to facilitate users in ordering tiffin meals conveniently. The app integrates key functionalities like Firebase authentication and real-time database for user management, a shared preferences-based cart, and Stripe integration for seamless payment processing.
 
 ---
 
