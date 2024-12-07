@@ -49,7 +49,7 @@ NutriBox is an Android-based application designed to facilitate users in orderin
 ## **Installation**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/tiffin-cart.git
+   git clone https://github.com/ajay-9/NutriBox.git
    cd tiffin-cart
     ```
 2. Open the project in Android Studio.
