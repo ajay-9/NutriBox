@@ -73,3 +73,34 @@ NutriBox is an Android-based application designed to facilitate users in orderin
 7. Enjoy your tiffin meal!
 
 ---
+## **Adobe XD Design Link**
+[View the Adobe XD Designs]( https://xd.adobe.com/view/2591f084-c235-483c-a272-eb76c547b2b2-70c2/)
+---
+## **Screenshots**
+
+### Landing Page
+![Landing Page](./screenshots/landing.png)  
+
+### Sign-Up Page
+![Sign-Up Page](./screenshots/signup.png)  
+
+### Home Page
+![Home Page](./screenshots/home.png)  
+
+### Browsing Meals
+![Browsing Meals](./screenshots/browsing.png)  
+
+### Managing Booking
+![Managing Booking](./screenshots/managing.png)  
+
+### Booking a Consultant
+![Booking a Consultant](./screenshots/booking.png)  
+
+### Adding Meal to Cart
+![Adding Meal to Cart](./screenshots/adding.png)  
+
+### Profile Page
+![Profile Page](./screenshots/profile.png)  
+
+
+
