@@ -88,7 +88,7 @@ NutriBox is an Android-based application designed to facilitate users in orderin
 ![Home Page](./screenshots/home.png)  
 
 ### Browsing Meals
-![Browsing Meals](./screenshots/browsing.png)  
+![Browsing Meals](./screenshots/browse.png)  
 
 ### Managing Booking
 ![Managing Booking](./screenshots/managing.png)  
