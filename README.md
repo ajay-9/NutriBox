@@ -1,7 +1,8 @@
 # **NutriBox Application**
 
 ## **Overview**
-NutriBox is an Android-based application designed to facilitate users in ordering tiffin meals conveniently. The app integrates key functionalities like Firebase authentication and real-time database for user management, a shared preferences-based cart, and Stripe integration for seamless payment processing.
+
+Nutri Box is a mobile-based platform delivering personalized, home-cooked, and nutritious meals. It offers flexible weekly/monthly meal plans, instant meals, and custom diet consultations, catering to busy individuals and promoting healthy, affordable eating. The app integrates key functionalities like Firebase authentication and real-time database for user management, a shared preferences-based cart, and Stripe integration for seamless payment processing.
 
 ---
 
